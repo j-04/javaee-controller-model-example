@@ -1,0 +1,28 @@
+<taglib>
+        <tlib-version>2.0</tlib-version>
+        <jsp-version>2.0</jsp-version><short-name>Hello tag</short-name>
+    <tag>
+        <name>header</name>
+        <tag-class>com.library.tags.HeadTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>title</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <name>navBar</name>
+        <tag-class>com.library.tags.NavBarTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>regForm</name>
+        <tag-class>com.library.tags.RegFormTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>authForm</name>
+        <tag-class>com.library.tags.AuthFormTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+</taglib>
